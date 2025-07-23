@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SALTEK: Energía Azul del Agua</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>SALTEK: Energía Azul del Agua - Soluciones Modulares de Energía Renovable</title>
+    <meta name="description" content="SALTEK ofrece soluciones modulares de energía limpia y sostenible aprovechando la diferencia de salinidad entre agua dulce y salada mediante Electrodiálisis Inversa (RED). Descubre el futuro de la energía azul.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav class="container">
-            <a href="#" class="logo">SALTEK ⚡</a>
-            <div class="menu-toggle" id="mobile-menu">
+            <a href="#" class="logo">SALTEK</a>
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
             <ul class="nav-links">
-                <li><a href="#que-es">¿Qué es?</a></li>
-                <li><a href="#como-funciona">¿Cómo Funciona?</a></li>
-                <li><a href="#a-quien-ayuda">¿A Quién Ayuda?</a></li>
-                <li><a href="#impacto">Nuestro Impacto</a></li>
-                <li><a href="#equipo">Nuestro Equipo</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#que-es" data-lang-key="nav_que_es">¿Qué es?</a></li>
+                <li><a href="#como-funciona" data-lang-key="nav_como_funciona">¿Cómo Funciona?</a></li>
+                <li><a href="#a-quien-ayuda" data-lang-key="nav_a_quien_ayuda">¿A Quién Ayuda?</a></li>
+                <li><a href="#impacto" data-lang-key="nav_impacto">Nuestro Impacto</a></li>
+                <li><a href="#equipo" data-lang-key="nav_equipo">Nuestro Equipo</a></li>
+                <li><a href="#faq" data-lang-key="nav_faq">FAQ</a></li>
+                <li><a href="#contacto" data-lang-key="nav_contacto">Contacto</a></li>
+                <li class="lang-toggle-mobile"><button id="langToggleMobile" class="secondary-cta">English</button></li>
             </ul>
             <div class="cta-buttons">
-                <a href="#contacto" class="primary-cta">🚀 Solicita una Demo</a>
-                <a href="ruta/a/tu/brochure.pdf" download class="secondary-cta">📚 Descargar Brochure</a>
+                <a href="#contacto" class="primary-cta" data-lang-key="cta_demo">Solicita una Demo</a>
+                <a href="ruta/a/tu/brochure.pdf" download class="secondary-cta" data-lang-key="cta_brochure">Descargar Brochure</a>
+                <button id="langToggleDesktop" class="secondary-cta lang-toggle-desktop">English</button>
             </div>
         </nav>
     </header>
@@ -36,95 +39,95 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1 class="animate-fade-in">SALTEK: Tu Solución Modular para Energía Azul Renovable 💧</h1>
-                <p class="animate-fade-in delay-1">Transformando la diferencia de salinidad en electricidad limpia y sostenible para un futuro brillante.</p>
-                <div class="cta-buttons animate-fade-in delay-2">
-                    <a href="#contacto" class="primary-cta">🚀 Solicita una Demo Interactiva</a>
-                    <a href="ruta/a/tu/brochure.pdf" download class="secondary-cta">📚 Descarga Nuestro Brochure Detallado</a>
+                <p class="hero-subtitle animate-fade-in" data-lang-key="hero_subtitle">Innovación en Energía Limpia</p>
+                <h1 class="animate-fade-in delay-02" data-lang-key="hero_heading">SALTEK: Tu Solución Modular para <span class="highlight" data-lang-key="hero_highlight_text">Energía Azul Renovable</span></h1>
+                <p class="animate-fade-in delay-04" data-lang-key="hero_description">Transformando la diferencia de salinidad del agua en electricidad limpia y sostenible para un futuro brillante.</p>
+                <div class="hero-cta-buttons animate-fade-in delay-06">
+                    <a href="#contacto" class="primary-cta" data-lang-key="hero_cta_discover">Descubre el Potencial</a>
+                    <a href="ruta/a/tu/brochure.pdf" download class="secondary-cta" data-lang-key="hero_cta_brochure">Descargar Brochure</a>
                 </div>
             </div>
         </section>
 
         <section id="que-es" class="container reveal">
             <div class="section-header">
-                <h2>Descubre SALTEK: Innovación en Energía Azul</h2>
+                <h2 data-lang-key="section_que_es_heading">Descubre SALTEK: La Revolución de la Energía Azul</h2>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>SALTEK es una solución modular de vanguardia que genera **electricidad limpia y sostenible** aprovechando la **diferencia de salinidad entre agua dulce y salada** mediante un proceso de **Electrodiálisis Inversa (RED)**. Nuestra tecnología representa un avance significativo hacia un futuro energético más verde.</p>
+                    <p data-lang-key="section_que_es_p1">SALTEK es una solución modular de vanguardia que genera <strong>electricidad 100% limpia y sostenible</strong> aprovechando la diferencia de salinidad entre agua dulce y salada mediante un innovador proceso de <strong>Electrodiálisis Inversa (RED)</strong>. Esta tecnología representa un salto cualitativo hacia un futuro energético más verde y eficiente.</p>
                     <div class="features-grid">
                         <div class="feature-item">
                             <i class="fas fa-leaf icon-large"></i>
-                            <h3>100% Renovable</h3>
-                            <p>Energía inagotable de la naturaleza.</p>
+                            <h3 data-lang-key="feature_renewable_heading">Totalmente Renovable</h3>
+                            <p data-lang-key="feature_renewable_desc">Aprovecha la energía inagotable inherente a la naturaleza, sin agotar recursos.</p>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-smog icon-large text-green"></i>
-                            <h3>Cero Emisiones</h3>
-                            <p>Contribuye a un planeta más limpio.</p>
+                            <i class="fas fa-cloud-sun icon-large text-green"></i>
+                            <h3 data-lang-key="feature_emissions_heading">Cero Emisiones Netas</h3>
+                            <p data-lang-key="feature_emissions_desc">Opera sin liberar gases de efecto invernadero, contribuyendo a un aire más puro.</p>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-clock icon-large"></i>
-                            <h3>Operación 24/7</h3>
-                            <p>Generación continua, día y noche.</p>
+                            <i class="fas fa-infinity icon-large"></i>
+                            <h3 data-lang-key="feature_247_heading">Operación Continua 24/7</h3>
+                            <p data-lang-key="feature_247_desc">Genera electricidad ininterrumpidamente, día y noche, independientemente del clima.</p>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-boxes icon-large"></i>
-                            <h3>Modular y Escalable</h3>
-                            <p>Adaptable a diversas necesidades y ubicaciones.</p>
+                            <i class="fas fa-cube icon-large"></i>
+                            <h3 data-lang-key="feature_modular_heading">Diseño Modular & Escalable</h3>
+                            <p data-lang-key="feature_modular_desc">Nuestra solución se adapta a diversas escalas y ubicaciones, desde pequeñas comunidades hasta grandes industrias.</p>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="./img/saltek diagrama.png" alt="Sistema SALTEK Modular">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/4KA5AB3ICFA3ZPZBK5STSUJ6AM.jpg" alt="Diagrama conceptual del sistema modular SALTEK mostrando el flujo de agua dulce y salada para generar electricidad.">
                 </div>
             </div>
         </section>
 
         <section id="como-funciona" class="container reveal">
             <div class="section-header">
-                <h2>El Proceso SALTEK: Ciencia Sencilla, Energía Poderosa</h2>
+                <h2 data-lang-key="section_how_it_works_heading">El Proceso SALTEK: Ciencia Transformada en Energía</h2>
             </div>
             <div class="how-it-works-content">
-                <div class="diagram-placeholder">
-                    [Diagrama Electrodiálisis Inversa (RED)]
-                    <br>
-                    <small>(ATN)</small>
+                <div class="diagram-placeholder" aria-label="Diagrama esquemático de Electrodiálisis Inversa (RED) para generación de energía">
+                    <img src="./img/saltek diagrama.png" alt="Diagrama de Electrodiálisis Inversa (RED)" style="max-width:100%; height:auto;">
+                    <small data-lang-key="diagram_caption">Diagrama de Electrodiálisis Inversa (RED)</small>
                 </div>
                 <div class="steps-grid">
                     <div class="step-item">
-                        <span class="step-number">1</span>
+                        <span class="step-number">01</span>
                         <div>
-                            <h3><i class="fas fa-tint"></i> Flujo de Agua</h3>
-                            <p>El agua dulce y salada fluyen en canales alternos, separadas por membranas especializadas.</p>
+                            <h3 data-lang-key="step1_heading"><i class="fas fa-water"></i> Flujo Dual de Agua</h3>
+                            <p data-lang-key="step1_desc">Agua dulce y salada ingresan en canales alternos, separados por membranas semipermeables.</p>
                         </div>
                     </div>
                     <div class="step-item">
-                        <span class="step-number">2</span>
+                        <span class="step-number">02</span>
                         <div>
-                            <h3><i class="fas fa-atom"></i> Separación Iónica</h3>
-                            <p>Membranas de intercambio iónico selectivas permiten el paso de iones específicos, creando un gradiente de concentración.</p>
+                            <h3 data-lang-key="step2_heading"><i class="fas fa-magnet"></i> Intercambio Iónico Selectivo</h3>
+                            <p data-lang-key="step2_desc">Membranas aniónicas y catiónicas permiten el paso de iones específicos, creando un gradiente electroquímico.</p>
                         </div>
                     </div>
                     <div class="step-item">
-                        <span class="step-number">3</span>
+                        <span class="step-number">03</span>
                         <div>
-                            <h3><i class="fas fa-bolt"></i> Generación de Corriente</h3>
-                            <p>El flujo direccional de iones a través de las membranas genera un flujo de electrones, produciendo corriente eléctrica.</p>
+                            <h3 data-lang-key="step3_heading"><i class="fas fa-charging-station"></i> Generación de Corriente Eléctrica</h3>
+                            <p data-lang-key="step3_desc">El movimiento de iones a través de las membranas produce un flujo direccional de electrones, generando electricidad.</p>
                         </div>
                     </div>
                     <div class="step-item">
-                        <span class="step-number">4</span>
+                        <span class="step-number">04</span>
                         <div>
-                            <h3><i class="fas fa-plug"></i> Captura de Energía</h3>
-                            <p>Electrodos estratégicamente ubicados capturan la electricidad generada, lista para su uso.</p>
+                            <h3 data-lang-key="step4_heading"><i class="fas fa-network-wired"></i> Conexión a la Red</h3>
+                            <p data-lang-key="step4_desc">Electrodos estratégicamente ubicados capturan y dirigen la electricidad generada para su distribución.</p>
                         </div>
                     </div>
                     <div class="step-item">
-                        <span class="step-number">5</span>
+                        <span class="step-number">05</span>
                         <div>
-                            <h3><i class="fas fa-lightbulb"></i> Energía Lista</h3>
-                            <p>La energía limpia se distribuye para alimentar comunidades, industrias o redes.</p>
+                            <h3 data-lang-key="step5_heading"><i class="fas fa-globe-americas"></i> Impacto Global</h3>
+                            <p data-lang-key="step5_desc">La energía limpia se integra en comunidades e industrias, impulsando un desarrollo sostenible.</p>
                         </div>
                     </div>
                 </div>
@@ -133,28 +136,28 @@
 
         <section id="a-quien-ayuda" class="container reveal">
             <div class="section-header">
-                <h2>SALTEK en Acción: Impulsando el Desarrollo Global</h2>
+                <h2 data-lang-key="section_who_helps_heading">SALTEK en Acción: Impulsando el Desarrollo Sostenible Global</h2>
             </div>
             <div class="beneficiary-grid">
                 <div class="beneficiary-card">
-                    <img src="https://cdn-3.expansion.mx/infographic/2021/12/16-17/36/09-0000017d-ba37-d4c0-a17d-feb723bf0000-default/img/casa.jpeg" alt="Comunidad sin Acceso a Energía">
+                    <img src="https://cdn-3.expansion.mx/infographic/2021/12/16-17/36/09-0000017d-ba37-d4c0-a17d-feb723bf0000-default/img/casa.jpeg" alt="Comunidad rural sin acceso a energía, ilustrando el impacto positivo de SALTEK">
                     <div class="beneficiary-card-content">
-                        <h3>Comunidades sin Acceso a Energía</h3>
-                        <p>Llevando luz y progreso a regiones remotas y desfavorecidas, mejorando la calidad de vida.</p>
+                        <h3 data-lang-key="beneficiary1_heading">Comunidades Vulnerables</h3>
+                        <p data-lang-key="beneficiary1_desc">Llevamos electrificación a regiones remotas y desfavorecidas, transformando la calidad de vida y las oportunidades.</p>
                     </div>
                 </div>
                 <div class="beneficiary-card">
-                    <img src="https://elblogverde.com/wp-content/uploads/2015/05/ongs-ecologistas.jpg" alt="Gobiernos y ONG">
+                    <img src="https://elblogverde.com/wp-content/uploads/2015/05/ongs-ecologistas.jpg" alt="Representación de gobiernos y ONGs colaborando en proyectos de sostenibilidad">
                     <div class="beneficiary-card-content">
-                        <h3>Gobiernos y ONG</h3>
-                        <p>Apoyando iniciativas de desarrollo sostenible y electrificación rural a gran escala con soluciones innovadoras.</p>
+                        <h3 data-lang-key="beneficiary2_heading">Organizaciones & Gobiernos</h3>
+                        <p data-lang-key="beneficiary2_desc">Apoyamos iniciativas de desarrollo sostenible y electrificación rural a gran escala con soluciones innovadoras y de bajo impacto.</p>
                     </div>
                 </div>
                 <div class="beneficiary-card">
-                    <img src="https://hidroponia.mx/wp-content/uploads/2015/09/agricultura_en_México.jpg" alt="Industria y Agricultura">
+                    <img src="https://hidroponia.mx/wp-content/uploads/2015/09/agricultura_en_México.jpg" alt="Escena de industria y agricultura moderna operando con energía limpia y renovable">
                     <div class="beneficiary-card-content">
-                        <h3>Industria y Agricultura</h3>
-                        <p>Proporcionando una fuente de energía confiable, económica y limpia para operaciones críticas y sostenibles.</p>
+                        <h3 data-lang-key="beneficiary3_heading">Sectores Industriales & Agrícolas</h3>
+                        <p data-lang-key="beneficiary3_desc">Proporcionamos una fuente de energía confiable, económica y limpia, vital para operaciones críticas y la competitividad sostenible.</p>
                     </div>
                 </div>
             </div>
@@ -162,75 +165,74 @@
 
         <section id="impacto" class="container reveal">
             <div class="section-header">
-                <h2>Transformando Vidas: El Impacto de SALTEK</h2>
+                <h2 data-lang-key="section_impact_heading">Nuestro Legado: Cifras que Transforman Vidas.</h2>
             </div>
             <div class="impact-grid">
                 <div class="impact-metric">
-                    <div class="number" data-target="15">0</div>
-                    <div class="description">META:Comunidades electrificadas</div>
+                    <div class="number" data-target="15" data-suffix="+" data-type="communities">0</div>
+                    <div class="description" data-lang-key="impact_communities">META:Comunidades Electrificadas</div>
                 </div>
                 <div class="impact-metric">
-                    <div class="number" data-target="5000000">0</div>
-                    <div class="description">META: kWh generados anualmente</div>
+                    <div class="number" data-target="5" data-suffix="M+" data-type="kwh">0</div>
+                    <div class="description" data-lang-key="impact_kwh">META:kWh Generados Anualmente</div>
                 </div>
                 <div class="impact-metric">
-                    <div class="number" data-target="1200">0</div>
-                    <div class="description">META: Ton. de CO2 reducidas</div>
+                    <div class="number" data-target="1200" data-suffix="+" data-type="co2">0</div>
+                    <div class="description" data-lang-key="impact_co2">META:Toneladas de CO2 Reducidas</div>
                 </div>
             </div>
-
             <div class="testimonials-slider">
                 <div class="slider-wrapper">
                     <div class="testimonial-item active">
-                        <p>"SALTEK ha cambiado la vida de nuestra comunidad. Ahora tenemos luz por las noches y podemos estudiar y trabajar. Es una bendición."</p>
-                        <p class="testimonial-author">- María P., Líder Comunitaria en El Carmen</p>
+                        <p data-lang-key="testimonial1_quote">"SALTEK ha sido un pilar para nuestra comunidad. La luz nocturna ha permitido que nuestros hijos estudien y que los pequeños negocios florezcan. Es más que energía, es esperanza."</p>
+                        <p class="testimonial-author" data-lang-key="testimonial1_author">- María P., Líder Comunitaria en El Carmen, Oaxaca</p>
                     </div>
                     <div class="testimonial-item">
-                        <p>"La implementación de SALTEK fue sorprendentemente sencilla y el impacto en la sostenibilidad de nuestras operaciones ha sido invaluable. Un socio clave para el futuro."</p>
-                        <p class="testimonial-author">- Dr. Juan G., Director de Proyectos Ambientales, ONG Global Power</p>
+                        <p data-lang-key="testimonial2_quote">"Integrar SALTEK en nuestros proyectos fue una decisión estratégica. Su modularidad y la mínima huella ambiental son incomparables. Son el futuro de la electrificación rural sostenible."</p>
+                        <p class="testimonial-author" data-lang-key="testimonial2_author">- Dr. Juan G., Director de Proyectos Ambientales, ONG Global Power</p>
                     </div>
                     <div class="testimonial-item">
-                        <p>"Desde que integramos SALTEK, nuestros costos energéticos se han reducido drásticamente y nuestra huella de carbono es casi nula. ¡Una inversión que vale la pena!"</p>
-                        <p class="testimonial-author">- Ing. Laura R., Gerente de Operaciones, AgroTech Solutions</p>
+                        <p data-lang-key="testimonial3_quote">"Con SALTEK, nuestros costos operativos se han optimizado drásticamente y nuestro compromiso ambiental es tangible. Una inversión inteligente que se alinea perfectamente con nuestra visión de sostenibilidad."</p>
+                        <p class="testimonial-author" data-lang-key="testimonial3_author">- Ing. Laura R., Gerente de Operaciones, AgroTech Solutions</p>
                     </div>
                 </div>
                 <div class="slider-controls">
-                    <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
-                    <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    <button class="prev-slide" aria-label="Testimonio anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-slide" aria-label="Siguiente testimonio"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
         </section>
 
         <section id="equipo" class="container reveal">
             <div class="section-header">
-                <h2>Conoce al Equipo Detrás de la Innovación</h2>
+                <h2 data-lang-key="section_team_heading">Conoce al Equipo Visionario de SALTEK</h2>
             </div>
             <div class="team-grid">
                 <div class="team-member-card">
-                    <img src="./img/unnamed-2.jpg" alt="Foto de Juan Pérez">
+                    <img src="./img/unnamed-2.jpg" alt="Foto de Braulio Hernandez, CEO y Fundador de SALTEK">
                     <h3>Braulio Hernandez</h3>
-                    <p class="role">CEO & Fundador</p>
-                    <p class="bio">Visionario detrás de SALTEK, con experiencia en energías renovables y desarrollo tecnológico.</p>
+                    <p class="role" data-lang-key="team_braulio_role">CEO & Fundador</p>
+                    <p class="bio" data-lang-key="team_braulio_bio">Visionario y estratega con una profunda experiencia en energías renovables y desarrollo tecnológico sostenible.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/brauliohernandez" target="_blank" aria-label="LinkedIn de Braulio Hernandez"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="team-member-card">
-                    <img src="./img/unnamed-4.jpg" alt="Foto de Ana García">
+                    <img src="./img/unnamed-4.jpg" alt="Foto de Hannia Recendez, Directora de I+D de SALTEK">
                     <h3>Hannia Recendez</h3>
-                    <p class="role">Directora de I+D</p>
-                    <p class="bio">Científica de materiales, experta en membranas para la separación iónica y optimización de procesos.</p>
+                    <p class="role" data-lang-key="team_hannia_role">Directora de I+D</p>
+                    <p class="bio" data-lang-key="team_hannia_bio">Científica de materiales, experta en el diseño y optimización de membranas para la Electrodiálisis Inversa.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/hanniarecendez" target="_blank" aria-label="LinkedIn de Hannia Recendez"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="team-member-card">
-                    <img src="./img/unnamed-3.jpg" alt="Foto de Carlos Mendoza">
+                    <img src="./img/unnamed-3.jpg" alt="Foto de Daniel Alvarez, Director de Tecnología de SALTEK">
                     <h3>Daniel Alvarez</h3>
-                    <p class="role">Directora de Tecnología</p>
-                    <p class="bio">Ingeniero con experiencia en la implementación y gestión de proyectos de electrificación en zonas remotas.</p>
+                    <p class="role" data-lang-key="team_daniel_role">Director de Tecnología</p>
+                    <p class="bio" data-lang-key="team_daniel_bio">Ingeniero con amplia trayectoria en la implementación y gestión de proyectos de electrificación en zonas de difícil acceso.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/danielalvarez" target="_blank" aria-label="LinkedIn de Daniel Alvarez"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -238,31 +240,31 @@
 
         <section id="faq" class="container reveal">
             <div class="section-header">
-                <h2>¿Tienes Preguntas? Te Respondemos.</h2>
+                <h2 data-lang-key="section_faq_heading">Preguntas Frecuentes: Resuelve tus Dudas sobre SALTEK</h2>
             </div>
             <div class="faq-accordion">
                 <div class="faq-item">
-                    <h3 class="faq-question">¿Qué es exactamente la Electrodiálisis Inversa (RED)? <i class="fas fa-chevron-down"></i></h3>
+                    <h3 class="faq-question" data-lang-key="faq1_question">¿Qué es exactamente la Electrodiálisis Inversa (RED)? <i class="fas fa-chevron-down"></i></h3>
                     <div class="faq-answer">
-                        <p>La Electrodiálisis Inversa (Reverse Electrodialysis - RED) es una tecnología que genera electricidad de la diferencia de potencial electroquímico entre dos soluciones con distintas concentraciones de sal (agua dulce y agua salada) a través de membranas de intercambio iónico.</p>
+                        <p data-lang-key="faq1_answer">La Electrodiálisis Inversa (Reverse Electrodialysis - RED) es una tecnología avanzada que genera electricidad aprovechando la diferencia de potencial electroquímico entre dos soluciones con distintas concentraciones de sal (como el agua dulce de un río y el agua salada del mar) a través de membranas de intercambio iónico altamente selectivas. Es un proceso de generación de energía completamente limpio y renovable.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">¿Es SALTEK adecuado para mi comunidad o proyecto? <i class="fas fa-chevron-down"></i></h3>
+                    <h3 class="faq-question" data-lang-key="faq2_question">¿Es SALTEK adecuado para mi comunidad o proyecto? <i class="fas fa-chevron-down"></i></h3>
                     <div class="faq-answer">
-                        <p>SALTEK es ideal para cualquier lugar con acceso a fuentes de agua dulce y salada (ríos y mar, lagos y salmueras, etc.). Su diseño modular permite adaptarse a diversas escalas, desde pequeñas comunidades hasta aplicaciones industriales.</p>
+                        <p data-lang-key="faq2_answer">SALTEK es ideal para cualquier ubicación que tenga acceso a fuentes de agua con diferencias de salinidad significativas, como la confluencia de ríos y el mar, la cercanía a lagos salinos o la disponibilidad de salmueras. Su diseño modular permite una fácil adaptación a diversas escalas, desde la provisión de energía para pequeñas comunidades rurales hasta aplicaciones industriales a gran escala, ofreciendo una solución energética flexible y eficiente.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">¿Cuál es el costo de implementación y mantenimiento? <i class="fas fa-chevron-down"></i></h3>
+                    <h3 class="faq-question" data-lang-key="faq3_question">¿Cuál es el costo de implementación y mantenimiento? <i class="fas fa-chevron-down"></i></h3>
                     <div class="faq-answer">
-                        <p>El costo varía según la escala del proyecto y las condiciones del sitio. Ofrecemos estudios de viabilidad y presupuestos personalizados. El mantenimiento es bajo debido a la robustez de los componentes y la naturaleza pasiva del proceso de generación de energía.</p>
+                        <p data-lang-key="faq3_answer">El costo inicial de implementación de un sistema SALTEK varía considerablemente según la escala del proyecto, la potencia energética requerida y las condiciones específicas del sitio. Ofrecemos estudios de viabilidad detallados y presupuestos personalizados para cada cliente. El mantenimiento es notablemente bajo gracias a la robustez y durabilidad de nuestros componentes, así como a la naturaleza pasiva y eficiente del proceso de generación de energía, lo que se traduce en menores costos operativos a largo plazo.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <h3 class="faq-question">¿Cuál es la vida útil de un sistema SALTEK? <i class="fas fa-chevron-down"></i></h3>
+                    <h3 class="faq-question" data-lang-key="faq4_question">¿Cuál es la vida útil esperada de un sistema SALTEK? <i class="fas fa-chevron-down"></i></h3>
                     <div class="faq-answer">
-                        <p>Nuestros sistemas están diseñados para una larga vida útil, con membranas y componentes optimizados para resistir las condiciones ambientales y operativas. Esperamos una vida útil superior a 20 años con un mantenimiento adecuado.</p>
+                        <p data-lang-key="faq4_answer">Nuestros sistemas están meticulosamente diseñados para ofrecer una larga vida útil. Las membranas y todos los componentes han sido optimizados y seleccionados para resistir las condiciones ambientales y operativas más exigentes. Con un mantenimiento preventivo adecuado y siguiendo nuestras recomendaciones, esperamos que un sistema SALTEK opere de manera eficiente y confiable por más de 20 años, asegurando un retorno de inversión a largo plazo.</p>
                     </div>
                 </div>
             </div>
@@ -270,37 +272,45 @@
 
         <section id="contacto" class="container reveal">
             <div class="section-header">
-                <h2>Conéctate con Nosotros</h2>
+                <h2 data-lang-key="section_contact_heading">Conéctate con Nosotros: Impulsa el Cambio Energético</h2>
             </div>
             <div class="contact-content">
                 <div class="contact-form-container">
-                    <h3>Envíanos un Mensaje</h3>
-                    <form id="contactForm" action="#" method="POST"> <label for="name">Nombre Completo</label>
-                        <input type="text" id="name" name="name" required>
-
-                        <label for="email">Correo Electrónico</label>
-                        <input type="email" id="email" name="email" required>
-
-                        <label for="subject">Asunto</label>
-                        <input type="text" id="subject" name="subject">
-
-                        <label for="message">Tu Mensaje</label>
-                        <textarea id="message" name="message" required></textarea>
-
-                        <button type="submit">Enviar Mensaje</button>
+                    <h3 data-lang-key="contact_form_heading">Envíanos un Mensaje</h3>
+                    <form id="contactForm" action="#" method="POST" novalidate>
+                        <div class="form-group">
+                            <label for="name" data-lang-key="form_label_name">Nombre Completo <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-lang-key="form_label_email">Correo Electrónico <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-lang-key="form_label_subject">Asunto</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-lang-key="form_label_message">Tu Mensaje <span class="required">*</span></label>
+                            <textarea id="message" name="message" required aria-required="true"></textarea>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+                        <button type="submit" data-lang-key="form_submit_button">Enviar Mensaje</button>
                     </form>
-                    <div id="formMessage" class="hidden"></div>
+                    <div id="formMessage" class="hidden" role="status" aria-live="polite"></div>
                 </div>
                 <div class="contact-info">
-                    <h3>Información de Contacto</h3>
-                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> addtonetwork@gmail.com</p>
-                    <p><i class="fas fa-phone-alt"></i> <strong>Teléfono:</strong> +52 33 2486 1338</p>
-                    <p><i class="fas fa-map-marker-alt"></i> <strong>Oficina Principal:</strong><br>Av. Sipre Viva 742, Col. vación,<br>Guadalajara, Jalisco, México</p>
+                    <h3 data-lang-key="contact_info_heading">Información de Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> <strong data-lang-key="contact_info_email_label">Email:</strong> addtonetwork@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> <strong data-lang-key="contact_info_phone_label">Teléfono:</strong> +52 33 2486 1338</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong data-lang-key="contact_info_address_label">Oficina Principal:</strong><br>Av. Sipre Viva 742, Col. Vación, <br>Guadalajara, Jalisco, México</p>
                     <div class="social-links">
-                        <a href="https://linkedin.com/company/saltek" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://twitter.com/saltek" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="https://facebook.com/saltek" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/atn.mx/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/saltek" target="_blank" aria-label="LinkedIn de SALTEK"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/saltek" target="_blank" aria-label="Twitter de SALTEK"><i class="fab fa-twitter"></i></a>
+                        <a href="https://facebook.com/saltek" target="_blank" aria-label="Facebook de SALTEK"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/atn.mx/" target="_blank" aria-label="Instagram de ATN (SALTEK)"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -309,9 +319,9 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 SALTEK. Todos los derechos reservados.</p>
+            <p data-lang-key="footer_copyright">&copy; 2025 SALTEK. Todos los derechos reservados.</p>
             <div class="footer-links">
-                <a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a>
+                <a href="#" data-lang-key="footer_privacy">Política de Privacidad</a> | <a href="#" data-lang-key="footer_terms">Términos de Servicio</a>
             </div>
         </div>
     </footer>
